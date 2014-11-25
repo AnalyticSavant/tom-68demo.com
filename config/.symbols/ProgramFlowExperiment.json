@@ -1,0 +1,129 @@
+{
+    "properties": [
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "EmailCounter", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 3
+            }, 
+            "type": "Integer"
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "AlreadyProcessedList", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 17
+            }, 
+            "type": "Set"
+        }
+    ], 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "SendEmail", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 15, 
+                "line": 5
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "SendQueuedEmails", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 15, 
+                "line": 12
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "HandleContactUpdateTrigger", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "newlist"
+                }, 
+                {
+                    "type": "Map", 
+                    "name": "oldmap"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 14, 
+                "line": 19
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ], 
+    "innerClasses": [], 
+    "variables": [
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 55, 
+                "line": 19
+            }, 
+            "name": "newlist"
+        }, 
+        {
+            "type": "Map", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 81, 
+                "line": 19
+            }, 
+            "name": "oldmap"
+        }, 
+        {
+            "type": "Contact", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 23
+            }, 
+            "name": "ct"
+        }
+    ], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "ProgramFlowExperiment", 
+    "tableDeclaration": {
+        "type": "ProgramFlowExperiment", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 1
+        }, 
+        "name": "ProgramFlowExperiment"
+    }, 
+    "key": "01po0000003WDcsAAG", 
+    "id": "01po0000003WDcsAAG", 
+    "externalReferences": []
+}

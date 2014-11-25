@@ -1,0 +1,190 @@
+{
+    "properties": [], 
+    "methods": [
+        {
+            "modifiers": [
+                "TEST", 
+                "STATIC"
+            ], 
+            "name": "TestOwnerChange", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 28, 
+                "line": 4
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "initTestContacts", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "prefix"
+                }, 
+                {
+                    "type": "Integer", 
+                    "name": "count"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 33, 
+                "line": 31
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "initTestUser", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "username"
+                }, 
+                {
+                    "type": "String", 
+                    "name": "thealias"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 42
+            }, 
+            "returnType": "User", 
+            "type": null
+        }
+    ], 
+    "innerClasses": [], 
+    "variables": [
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 23, 
+                "line": 6
+            }, 
+            "name": "newcontacts"
+        }, 
+        {
+            "type": "User", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 14, 
+                "line": 8
+            }, 
+            "name": "u"
+        }, 
+        {
+            "type": "Contact", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 22, 
+                "line": 18
+            }, 
+            "name": "ct"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 58, 
+                "line": 31
+            }, 
+            "name": "prefix"
+        }, 
+        {
+            "type": "Integer", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 74, 
+                "line": 31
+            }, 
+            "name": "count"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 22, 
+                "line": 33
+            }, 
+            "name": "results"
+        }, 
+        {
+            "type": "Integer", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 34
+            }, 
+            "name": "x"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 44, 
+                "line": 42
+            }, 
+            "name": "username"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 61, 
+                "line": 42
+            }, 
+            "name": "thealias"
+        }, 
+        {
+            "type": "User", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 14, 
+                "line": 44
+            }, 
+            "name": "u"
+        }
+    ], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "TestContactOwnerChange", 
+    "tableDeclaration": {
+        "type": "TestContactOwnerChange", 
+        "modifiers": [
+            "TEST"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 15, 
+            "line": 2
+        }, 
+        "name": "TestContactOwnerChange"
+    }, 
+    "key": "01po0000003WDcnAAG", 
+    "id": "01po0000003WDcnAAG", 
+    "externalReferences": []
+}

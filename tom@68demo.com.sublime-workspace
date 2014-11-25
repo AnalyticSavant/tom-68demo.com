@@ -1,0 +1,323 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"PUBLIC contains(ANY element) 	Boolean"
+			],
+			[
+				"b",
+				"BeenHereBefore"
+			],
+			[
+				"B",
+				"Boolean	[Standard Apex Class]"
+			],
+			[
+				"Pro",
+				"ProgramFlowExperiment	[Custom Apex Class]"
+			],
+			[
+				"o",
+				"oldMap"
+			],
+			[
+				"si",
+				"PUBLIC size() 	Integer"
+			],
+			[
+				"ne",
+				"newcontacts"
+			],
+			[
+				"a",
+				"assertEquals()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/classes/TestContactOwnerChange.cls",
+			"settings":
+			{
+				"buffer_size": 1705,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/ProgramFlowExperiment.cls",
+			"settings":
+			{
+				"buffer_size": 721,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Git: Log"
+			],
+			[
+				"git",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import os; print os.getenv('PATH')",
+			"git: status",
+			"import os; print os.getenv('PATH')",
+			"help",
+			"git:log",
+			"git log",
+			"git:status",
+			"git status",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/force/workspace/tom@68demo.com",
+		"/force/workspace/tom@68demo.com/debug/tests",
+		"/force/workspace/tom@68demo.com/debug/tests/TestContactOwnerChange",
+		"/force/workspace/tom@68demo.com/src",
+		"/force/workspace/tom@68demo.com/src/classes",
+		"/force/workspace/tom@68demo.com/src/triggers"
+	],
+	"file_history":
+	[
+		"/force/workspace/tom@68demo.com/src/triggers/ContactOwnerChangeTrigger.trigger",
+		"/force/workspace/tom@68demo.com/src/triggers/AddContacts.trigger",
+		"/force/workspace/tom@68demo.com/src/triggers/FindDupes.trigger",
+		"/force/workspace/tom@68demo.com/src/triggers/FindDupess.trigger",
+		"/force/workspace/tom@68demo.com/src/triggers/addCase.trigger",
+		"/Users/thomaspayne/Library/Application Support/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
+		"/Force/Workspace/tom@68demo.com/src/triggers/FindDupes.trigger",
+		"/force/workspace/tom@68demo.com/src/triggers/MyCoolTrigger.trigger",
+		"/force/workspace/Dev1/src/triggers/myCase.trigger-meta.xml",
+		"/Force/Workspace/Dev1/src/classes/Lists.cls",
+		"/Users/thomaspayne/force/enterprise.wsdl",
+		"/Users/thomaspayne/Dropbox/Penn State/SWENG 568 - Enterprise Integration/Week 4/wsdl.jsp.xml",
+		"/Users/thomaspayne/Development/wsdl/sfdcwsdl.wsdl",
+		"/Users/thomaspayne/Downloads/SERVERSOCKETPROGRAM/SERVERSOCKETPROGRAM/Program.cs",
+		"/Users/thomaspayne/Development/spring-mvc-fulfillment-base/README.md",
+		"/Users/thomaspayne/Development/src/main/java/hello/Greeter.java",
+		"/Users/thomaspayne/Development/src/main/java/hello/HelloWorld.java",
+		"/Users/thomaspayne/Development/spring-mvc-fulfillment-base/src/main/java/com/force/example/fulfillment/order/controller/ResourceNotFoundException.java",
+		"/Users/thomaspayne/Development/spring-mvc-fulfillment-base/src/main/java/com/force/example/fulfillment/order/controller/OrderUIController.java",
+		"/Users/thomaspayne/Development/spring-mvc-fulfillment-base/src/main/java/com/force/example/fulfillment/order/controller/OrderController.java",
+		"/Users/thomaspayne/Development/spring-mvc-fulfillment-base/src/main/java/com/force/example/fulfillment/HomeController.java",
+		"/Users/thomaspayne/Desktop/Lesson 1 Exercise",
+		"/Users/thomaspayne/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/thomaspayne/Library/Application Support/Sublime Text 3/Packages/MavensMate/mavensmate.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}",
+			"student",
+			"students",
+			"studentroster",
+			"student roster",
+			"student"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/classes/TestContactOwnerChange.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								601,
+								601
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/classes/ProgramFlowExperiment.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								668,
+								668
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 28.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "tom@68demo.com.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

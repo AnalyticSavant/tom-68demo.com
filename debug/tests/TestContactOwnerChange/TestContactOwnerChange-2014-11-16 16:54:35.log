@@ -1,0 +1,195 @@
+28.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WORKFLOW,INFO
+16:54:34.077 (77809631)|EXECUTION_STARTED
+16:54:34.077 (77862537)|CODE_UNIT_STARTED|[EXTERNAL]|01po0000003WDcn|TestContactOwnerChange.TestOwnerChange
+16:54:34.085 (85623164)|METHOD_ENTRY|[2]|01po0000003WDcn|TestContactOwnerChange.TestContactOwnerChange()
+16:54:34.085 (85633803)|METHOD_EXIT|[2]|TestContactOwnerChange
+16:54:34.085 (85710088)|METHOD_ENTRY|[6]|01po0000003WDcn|TestContactOwnerChange.initTestContacts(String, Integer)
+16:54:34.085 (85804922)|SYSTEM_CONSTRUCTOR_ENTRY|[33]|<init>()
+16:54:34.085 (85832728)|SYSTEM_CONSTRUCTOR_EXIT|[33]|<init>()
+16:54:34.085 (85919018)|SYSTEM_METHOD_ENTRY|[35]|String.valueOf(Integer)
+16:54:34.085 (85944535)|SYSTEM_METHOD_EXIT|[35]|String.valueOf(Integer)
+16:54:34.085 (85982533)|SYSTEM_METHOD_ENTRY|[35]|String.valueOf(Integer)
+16:54:34.085 (85992704)|SYSTEM_METHOD_EXIT|[35]|String.valueOf(Integer)
+16:54:34.086 (86040190)|SYSTEM_METHOD_ENTRY|[35]|LIST<Contact>.add(Object)
+16:54:34.086 (86053419)|SYSTEM_METHOD_EXIT|[35]|LIST<Contact>.add(Object)
+16:54:34.086 (86076019)|SYSTEM_METHOD_ENTRY|[35]|String.valueOf(Integer)
+16:54:34.086 (86085701)|SYSTEM_METHOD_EXIT|[35]|String.valueOf(Integer)
+16:54:34.086 (86108739)|SYSTEM_METHOD_ENTRY|[35]|String.valueOf(Integer)
+16:54:34.086 (86117735)|SYSTEM_METHOD_EXIT|[35]|String.valueOf(Integer)
+16:54:34.086 (86141983)|SYSTEM_METHOD_ENTRY|[35]|LIST<Contact>.add(Object)
+16:54:34.086 (86151107)|SYSTEM_METHOD_EXIT|[35]|LIST<Contact>.add(Object)
+16:54:34.086 (86170338)|SYSTEM_METHOD_ENTRY|[35]|String.valueOf(Integer)
+16:54:34.086 (86179706)|SYSTEM_METHOD_EXIT|[35]|String.valueOf(Integer)
+16:54:34.086 (86201882)|SYSTEM_METHOD_ENTRY|[35]|String.valueOf(Integer)
+16:54:34.086 (86210883)|SYSTEM_METHOD_EXIT|[35]|String.valueOf(Integer)
+16:54:34.086 (86233971)|SYSTEM_METHOD_ENTRY|[35]|LIST<Contact>.add(Object)
+16:54:34.086 (86242933)|SYSTEM_METHOD_EXIT|[35]|LIST<Contact>.add(Object)
+16:54:34.086 (86261574)|SYSTEM_METHOD_ENTRY|[35]|String.valueOf(Integer)
+16:54:34.086 (86271567)|SYSTEM_METHOD_EXIT|[35]|String.valueOf(Integer)
+16:54:34.086 (86293414)|SYSTEM_METHOD_ENTRY|[35]|String.valueOf(Integer)
+16:54:34.086 (86302618)|SYSTEM_METHOD_EXIT|[35]|String.valueOf(Integer)
+16:54:34.086 (86325717)|SYSTEM_METHOD_ENTRY|[35]|LIST<Contact>.add(Object)
+16:54:34.086 (86334690)|SYSTEM_METHOD_EXIT|[35]|LIST<Contact>.add(Object)
+16:54:34.086 (86343518)|METHOD_EXIT|[6]|01po0000003WDcn|TestContactOwnerChange.initTestContacts(String, Integer)
+16:54:34.086 (86357948)|METHOD_ENTRY|[8]|01po0000003WDcn|TestContactOwnerChange.initTestUser(String, String)
+16:54:34.086 (86563827)|SYSTEM_METHOD_ENTRY|[53]|system.UserInfo.getProfileId()
+16:54:34.086 (86633414)|SYSTEM_METHOD_EXIT|[53]|system.UserInfo.getProfileId()
+16:54:34.086 (86704167)|METHOD_EXIT|[8]|01po0000003WDcn|TestContactOwnerChange.initTestUser(String, String)
+16:54:34.086 (86732850)|DML_BEGIN|[10]|Op:Insert|Type:User|Rows:1
+16:54:34.317 (317420162)|DML_END|[10]
+16:54:34.322 (322491851)|DML_BEGIN|[12]|Op:Insert|Type:Contact|Rows:4
+16:54:34.423 (423208988)|CODE_UNIT_STARTED|[EXTERNAL]|01qo0000000Nw0m|AddContacts on Contact trigger event BeforeInsert for [new, new, new, new]
+16:54:34.423 (423465019)|SYSTEM_METHOD_ENTRY|[3]|LIST<Contact>.iterator()
+16:54:34.423 (423683329)|SYSTEM_METHOD_EXIT|[3]|LIST<Contact>.iterator()
+16:54:34.423 (423718997)|SYSTEM_METHOD_ENTRY|[3]|system.ListIterator.hasNext()
+16:54:34.423 (423750437)|SYSTEM_METHOD_EXIT|[3]|system.ListIterator.hasNext()
+16:54:34.423 (423871483)|SYSTEM_METHOD_ENTRY|[3]|system.ListIterator.hasNext()
+16:54:34.423 (423888077)|SYSTEM_METHOD_EXIT|[3]|system.ListIterator.hasNext()
+16:54:34.423 (423953200)|SYSTEM_METHOD_ENTRY|[3]|system.ListIterator.hasNext()
+16:54:34.423 (423969909)|SYSTEM_METHOD_EXIT|[3]|system.ListIterator.hasNext()
+16:54:34.424 (424034394)|SYSTEM_METHOD_ENTRY|[3]|system.ListIterator.hasNext()
+16:54:34.424 (424051607)|SYSTEM_METHOD_EXIT|[3]|system.ListIterator.hasNext()
+16:54:34.424 (424123362)|SYSTEM_METHOD_ENTRY|[3]|system.ListIterator.hasNext()
+16:54:34.424 (424139917)|SYSTEM_METHOD_EXIT|[3]|system.ListIterator.hasNext()
+16:54:34.473 (424154604)|CUMULATIVE_LIMIT_USAGE
+16:54:34.473|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 3 out of 150
+  Number of DML rows: 6 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:54:34.473|CUMULATIVE_LIMIT_USAGE_END
+
+16:54:34.424 (424492887)|CODE_UNIT_FINISHED|AddContacts on Contact trigger event BeforeInsert for [new, new, new, new]
+16:54:34.428 (428099011)|CODE_UNIT_STARTED|[EXTERNAL]|01qo0000000NwQL|ContactOwnerChangeTrigger on Contact trigger event BeforeInsert for [new, new, new, new]
+16:54:34.478 (428191621)|CUMULATIVE_LIMIT_USAGE
+16:54:34.478|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 3 out of 150
+  Number of DML rows: 6 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:54:34.478|CUMULATIVE_LIMIT_USAGE_END
+
+16:54:34.428 (428228513)|CODE_UNIT_FINISHED|ContactOwnerChangeTrigger on Contact trigger event BeforeInsert for [new, new, new, new]
+16:54:34.433 (433652044)|CODE_UNIT_STARTED|[EXTERNAL]|01qo0000000MRE1|TransferContact on Contact trigger event BeforeInsert for [new, new, new, new]
+16:54:34.433 (433790232)|SYSTEM_METHOD_ENTRY|[2]|LIST<Contact>.iterator()
+16:54:34.433 (433814170)|SYSTEM_METHOD_EXIT|[2]|LIST<Contact>.iterator()
+16:54:34.433 (433825254)|SYSTEM_METHOD_ENTRY|[2]|system.ListIterator.hasNext()
+16:54:34.433 (433839848)|SYSTEM_METHOD_EXIT|[2]|system.ListIterator.hasNext()
+16:54:34.433 (433906060)|SYSTEM_METHOD_ENTRY|[2]|system.ListIterator.hasNext()
+16:54:34.433 (433917715)|SYSTEM_METHOD_EXIT|[2]|system.ListIterator.hasNext()
+16:54:34.433 (433956885)|SYSTEM_METHOD_ENTRY|[2]|system.ListIterator.hasNext()
+16:54:34.433 (433967163)|SYSTEM_METHOD_EXIT|[2]|system.ListIterator.hasNext()
+16:54:34.434 (434003525)|SYSTEM_METHOD_ENTRY|[2]|system.ListIterator.hasNext()
+16:54:34.434 (434014569)|SYSTEM_METHOD_EXIT|[2]|system.ListIterator.hasNext()
+16:54:34.434 (434051405)|SYSTEM_METHOD_ENTRY|[2]|system.ListIterator.hasNext()
+16:54:34.434 (434061603)|SYSTEM_METHOD_EXIT|[2]|system.ListIterator.hasNext()
+16:54:34.483 (434071374)|CUMULATIVE_LIMIT_USAGE
+16:54:34.483|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 3 out of 150
+  Number of DML rows: 6 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:54:34.483|CUMULATIVE_LIMIT_USAGE_END
+
+16:54:34.434 (434218360)|CODE_UNIT_FINISHED|TransferContact on Contact trigger event BeforeInsert for [new, new, new, new]
+16:54:34.503 (503199395)|DML_END|[12]
+16:54:34.508 (508501781)|SYSTEM_METHOD_ENTRY|[16]|system.Test.startTest()
+16:54:34.510 (510142927)|SYSTEM_METHOD_EXIT|[16]|system.Test.startTest()
+16:54:34.510 (510165147)|SYSTEM_METHOD_ENTRY|[18]|LIST<Contact>.iterator()
+16:54:34.510 (510194777)|SYSTEM_METHOD_EXIT|[18]|LIST<Contact>.iterator()
+16:54:34.510 (510211615)|SYSTEM_METHOD_ENTRY|[18]|system.ListIterator.hasNext()
+16:54:34.510 (510230497)|SYSTEM_METHOD_EXIT|[18]|system.ListIterator.hasNext()
+16:54:34.510 (510270840)|SYSTEM_METHOD_ENTRY|[19]|system.UserInfo.getUserId()
+16:54:34.510 (510335213)|SYSTEM_METHOD_EXIT|[19]|system.UserInfo.getUserId()
+16:54:34.510 (510447038)|SYSTEM_METHOD_ENTRY|[18]|system.ListIterator.hasNext()
+16:54:34.510 (510464779)|SYSTEM_METHOD_EXIT|[18]|system.ListIterator.hasNext()
+16:54:34.510 (510487283)|SYSTEM_METHOD_ENTRY|[19]|system.UserInfo.getUserId()
+16:54:34.510 (510505055)|SYSTEM_METHOD_EXIT|[19]|system.UserInfo.getUserId()
+16:54:34.510 (510568884)|SYSTEM_METHOD_ENTRY|[18]|system.ListIterator.hasNext()
+16:54:34.510 (510586742)|SYSTEM_METHOD_EXIT|[18]|system.ListIterator.hasNext()
+16:54:34.510 (510609944)|SYSTEM_METHOD_ENTRY|[19]|system.UserInfo.getUserId()
+16:54:34.510 (510627426)|SYSTEM_METHOD_EXIT|[19]|system.UserInfo.getUserId()
+16:54:34.510 (510687369)|SYSTEM_METHOD_ENTRY|[18]|system.ListIterator.hasNext()
+16:54:34.510 (510704905)|SYSTEM_METHOD_EXIT|[18]|system.ListIterator.hasNext()
+16:54:34.510 (510726371)|SYSTEM_METHOD_ENTRY|[19]|system.UserInfo.getUserId()
+16:54:34.510 (510743517)|SYSTEM_METHOD_EXIT|[19]|system.UserInfo.getUserId()
+16:54:34.510 (510804587)|SYSTEM_METHOD_ENTRY|[18]|system.ListIterator.hasNext()
+16:54:34.510 (510821060)|SYSTEM_METHOD_EXIT|[18]|system.ListIterator.hasNext()
+16:54:34.510 (510864644)|DML_BEGIN|[23]|Op:Update|Type:Contact|Rows:4
+16:54:34.613 (613573321)|DML_END|[23]
+16:54:34.613 (613646775)|SYSTEM_METHOD_ENTRY|[25]|system.Test.stopTest()
+16:54:34.615 (615412858)|SYSTEM_METHOD_EXIT|[25]|system.Test.stopTest()
+16:54:34.615 (615436424)|SYSTEM_METHOD_ENTRY|[27]|LIST<Contact>.size()
+16:54:34.615 (615465778)|SYSTEM_METHOD_EXIT|[27]|LIST<Contact>.size()
+16:54:34.620 (620124082)|METHOD_ENTRY|[1]|01po0000003WDcs|ProgramFlowExperiment.ProgramFlowExperiment()
+16:54:34.620 (620151866)|METHOD_EXIT|[1]|ProgramFlowExperiment
+16:54:34.620 (620182665)|SYSTEM_METHOD_ENTRY|[27]|System.assertEquals(ANY, ANY)
+16:54:34.620 (620224359)|EXCEPTION_THROWN|[27]|System.AssertException: Assertion Failed: Expected: 4, Actual: 0
+16:54:34.620 (620309429)|SYSTEM_METHOD_EXIT|[27]|System.assertEquals(ANY, ANY)
+16:54:34.620 (620363751)|FATAL_ERROR|System.AssertException: Assertion Failed: Expected: 4, Actual: 0
+
+Class.TestContactOwnerChange.TestOwnerChange: line 27, column 1
+16:54:34.620 (620380714)|FATAL_ERROR|System.AssertException: Assertion Failed: Expected: 4, Actual: 0
+
+Class.TestContactOwnerChange.TestOwnerChange: line 27, column 1
+16:54:34.670 (620393688)|CUMULATIVE_LIMIT_USAGE
+16:54:34.670|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 3 out of 150
+  Number of DML rows: 6 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:54:34.670|TESTING_LIMITS
+16:54:34.670|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 1 out of 150
+  Number of DML rows: 4 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+16:54:34.670|CUMULATIVE_LIMIT_USAGE_END
+
+16:54:34.620 (620429809)|CODE_UNIT_FINISHED|TestContactOwnerChange.TestOwnerChange
+16:54:34.621 (621774641)|EXECUTION_FINISHED
